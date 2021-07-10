@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Scribble</title>
+    <!--Links to JS and CSS files -->
+</head>
+
+<body>
+    <!--Browser will have core default stylings for all elements called User agent styles. -->
+    <!--Heading-->
+    <h1>Hello World</h1>
+    <h6>Hello World</h6>
+
+    <!--Paragraph-->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+        maxime sequi deleniti corporis nemo quo dolores iure, possimus facere,
+        tenetur, cupiditate minus perspiciatis officia obcaecati provident atque
+        in ab? Laudantium.
+    </p>
+
+    <!--Block Tags-->
+    <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
+        atque ipsum vitae mollitia error dolorum reprehenderit non et dolores
+        officia, nobis, qui exercitationem voluptatibus vero ullam pariatur
+        expedita ab a.
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam et ducimus,
+        id nemo consectetur obcaecati dicta culpa veritatis, unde possimus, modi
+        atque pariatur! Voluptate non, odio saepe optio nemo nesciunt.
+    </p>
+
+    <!--Inline Tags-->
+    <strong> Boild text </strong>
+    <em> Emphasised text</em>
+    <a href="http://google.com" target="_blank">Link</a>
+
+    <!--List-->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <!--Tables-->
+    <!--Do not use tables for page layout.
+          Use tables for tabular data-->
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+    </table>
+
+    <br />
+
+    <!--Self closing tag-->
+    <hr />
+    <br />
+
+    <!--Forms-->
+    <form action="/action_page.php" method="POST">
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter Name">
+        </div>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+        <label for="lemail">Email:</label><br>
+        <input type="email" id="lemail" name="lemail"><br><br>
+
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.
+        </textarea>
+
+        <br>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <!-- Suggestion list-->
+        <input list="browsers">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--Button-->
+
+    <button>Click Me !</button>
+    <br>
+
+    <!--Image-->
+    <!--Self closing Tag.
+        Height is auto -->
+    <a href="https://randomuser.me/api/portraits/lego/6.jpg">
+        <img src="https://randomuser.me/api/portraits/lego/6.jpg" alt="sample image" width="100">
+    </a>    
+   
+
+    <!--Semantic tags define the meaning of tags -->
+
+    <a href="semantic.html">Go to Next Page</a>
+
+
+</body>
+
+</html>
